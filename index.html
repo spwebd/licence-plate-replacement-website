@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1>Your Registration Plate Online Services</h1>
+    <H2>Enter your details below £5.00 per digit/letter</H2>
+       <div id="content">
+         <div id="greeting" class="message">Hello!</div>    
+         
+            <table class="center">
+
+            <tr>
+                <td>Custom sign:</td>
+                <td>
+                  <input type="text" id="customSign" oninput="updateSign()">
+                </td>
+              </tr>
+
+
+            <tr>
+              <td>Custom Sign: </td>
+              <td id="customSignTiles"></td>
+            
+            </tr>
+             
+            <tr>
+                <td>Total tiles:</td>
+                <td id="totalTiles"></td>
+            </tr>
+          
+            <tr>
+                 <td>Subtotal:</td>
+                 <td id="subTotal">£</td>
+            </tr>
+             <tr>
+                <td>Shipping:</td>
+                <td id="shipping">£</td>
+            </tr>
+            <tr>
+                <td>Grand total</td>
+                <td id="grandTotal">£</td>
+            </tr>
+        </table>
+
+        </div>
+
+            <a href="https://eu-gateway.mastercard.com/ma/login.s" target="_blank" class="action">Pay Now</a>
+
+        
+
+        <img class="img1" src="images\bmw-car.jpg" alt="car image">
+
+<h2 class="enq1">For enquiries email us today <br><a href="mailto:spwebdesigninfo@gmail.com">spwebdesigninfo@gmail.com</a></h2>
+</div>
+    <!--end of container div -->
+
+         <script src="main.js"></script>
+
+</body>
+</html>

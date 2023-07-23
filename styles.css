@@ -1,0 +1,57 @@
+body {
+    background-color: yellow;
+    /*border: blue 2px solid;*/
+    height: 590px;
+}
+
+.container {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+table.center {
+   
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img1 {
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+  }
+
+  .enq1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+  }
+
+  a {
+    text-decoration: none;
+    
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  @media screen and ( max-width: 300px) {
+  .img1 {
+      display: none;
+    }
+    
+  }
+
+
+
+
